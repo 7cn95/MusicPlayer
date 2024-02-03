@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F1EE"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ED7D31"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingVertical="33dp"
+            android:text="Music Player"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/s1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="22dp"
+        android:layout_marginTop="44dp"
+        android:gravity="center|start">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="95dp"
+            android:src="@drawable/bb" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="152dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="33dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="Billie Elish \nbeyleysh"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/s2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="22dp"
+        android:layout_marginTop="44dp"
+        android:gravity="center|start">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/bbg" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="33dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="Billie Elish\nBad Guy"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/s3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="22dp"
+        android:layout_marginTop="44dp"
+        android:gravity="center|start">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/bbg2" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="33dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="Billie Elish\nlovely"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
